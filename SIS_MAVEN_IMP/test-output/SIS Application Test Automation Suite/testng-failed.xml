@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SIS Application Test Automation Suite]">
+  <test name="SIS Automation TestCases(failed)">
+    <classes>
+      <class name="com.sis.qa.testcases.ReportUploadPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="newReportUploadtest"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.sis.qa.testcases.ReportUploadPageTest -->
+      <class name="com.sis.qa.testcases.QC_PassTest">
+        <methods>
+          <include name="setup"/>
+          <include name="QCPassReport"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.sis.qa.testcases.QC_PassTest -->
+    </classes>
+  </test> <!-- SIS Automation TestCases(failed) -->
+</suite> <!-- Failed suite [SIS Application Test Automation Suite] -->

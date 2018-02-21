@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SIS Application Test Automation Suite">
+  <test name="SIS Automation TestCases">
+    <classes>
+   	 <!--  <class name="com.sis.qa.testcases.LoginPageTest"></class> -->
+   	   <class name="com.sis.qa.testcases.StudiesTest"></class>
+   	   <class name="com.sis.qa.testcases.UsersTest"></class>
+   	   <class name="com.sis.qa.testcases.ReportUploadPageTest"></class>
+       <class name="com.sis.qa.testcases.QC_PassTest"></class>      
+      </classes> 
+   </test>
+</suite>
